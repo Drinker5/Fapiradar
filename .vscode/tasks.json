@@ -20,11 +20,10 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/src/Fapiradar/Fapiradar.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "${workspaceFolder}/Fapiradar.sln",
             ],
-            "problemMatcher": "$msCompile"
+            "problemMatcher": "$msCompile",
+            "options": { "cwd": "${workspaceFolder}/src/Fapiradar" },
         }
     ],
     "options": {
